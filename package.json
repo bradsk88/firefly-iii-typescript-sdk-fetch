@@ -1,0 +1,30 @@
+{
+  "name": "firefly-iii-typescript-sdk-fetch",
+  "version": "1.0.0",
+  "description": "OpenAPI Generated SDK for Firefly III (Using the fetch API)",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bradsk88/firefly-iii-typescript-sdk-fetch.git"
+  },
+  "keywords": [
+    "Firefly III"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradsk88/firefly-iii-typescript-sdk-fetch/issues"
+  },
+  "homepage": "https://github.com/bradsk88/firefly-iii-typescript-sdk-fetch#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.13",
+    "typescript": "^4.8.2"
+  }
+}
