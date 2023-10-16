@@ -80,7 +80,7 @@ class SummaryApi extends runtime.BaseAPI {
             headers: headerParameters,
             query: queryParameters,
         });
-        return new runtime.JSONApiResponse(response, (jsonValue) => jsonValue.map(models_1.BasicSummaryEntryFromJSON));
+        return new runtime.JSONApiResponse(response, (jsonValue) => Object.values(jsonValue).map(models_1.BasicSummaryEntryFromJSON));
     }
     /**
      * Returns basic sums of the users data, like the net worth, spent and earned amounts. It is multi-currency, and is used in Firefly III to populate the dashboard.

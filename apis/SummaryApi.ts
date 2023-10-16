@@ -76,7 +76,7 @@ export class SummaryApi extends runtime.BaseAPI {
             query: queryParameters,
         });
 
-        return new runtime.JSONApiResponse(response, (jsonValue) => jsonValue.map(BasicSummaryEntryFromJSON));
+        return new runtime.JSONApiResponse(response, (jsonValue) => Object.values(jsonValue).map(BasicSummaryEntryFromJSON));
     }
 
     /**
